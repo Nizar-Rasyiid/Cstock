@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "title": "Royal Grape",
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "slug": "base",
+          "color": "#fff",
+          "name": "Base"
+        },
+        {
+          "slug": "contrast",
+          "color": "#595959",
+          "name": "Contrast"
+        },
+        {
+          "slug": "primary",
+          "color": "#111",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#00a0d2",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#F6F6F6",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "transparent",
+          "color": "transparent",
+          "name": "Transparent"
+        },
+        {
+          "slug": "secondary-bg",
+          "color": "#edededed",
+          "name": "Secondary Background"
+        },
+        {
+          "slug": "table-line",
+          "color": "rgba(0,0,0,.1)",
+          "name": "Table Line"
+        },
+        {
+          "slug": "Theme",
+          "color": "#097770",
+          "name": "Theme"
+        },
+        {
+          "slug": "assets-one",
+          "color": "#5A3A74",
+          "name": "Assets One"
+        },
+        {
+          "slug": "assets-two",
+          "color": "#33144c",
+          "name": "Assets Two"
+        },
+        {
+          "slug": "assets-three",
+          "color": "#1D202C",
+          "name": "Assets Three"
+        },
+        {
+          "slug": "assets-four",
+          "color": "#072D46",
+          "name": "Asset Four"
+        },
+        {
+          "slug": "assets-five",
+          "color": "#353535",
+          "name": "Assets Five"
+        },
+        {
+          "slug": "assets-six",
+          "color": "#0E3530",
+          "name": "Assets Six"
+        },
+        {
+          "slug": "assets-seven",
+          "color": "#eeeeee",
+          "name": "Assets Seven"
+        },
+        {
+          "slug": "assets-eight",
+          "color": "#1a1a19",
+          "name": "Assets Eight"
+        },
+        {
+          "slug": "assets-nine",
+          "color": "#2c2c2c",
+          "name": "Assets Nine"
+        },
+        {
+          "slug": "assets-ten",
+          "color": "#eeecf3",
+          "name": "Assets Ten"
+        },
+        {
+          "slug": "assets-eleven",
+          "color": "#181818",
+          "name": "Assets Eleven"
+        }
+      ]
+    }
+  }
+}

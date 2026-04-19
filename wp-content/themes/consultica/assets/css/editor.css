@@ -1,0 +1,58 @@
+/*post date*/
+.wp-block-post-date::before{
+  content: "\f508";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.post-author-name.wp-block-post-author-name::before{
+  content: "\f110";
+  font-family: 'Dashicons';
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+.wp-block-button__link {
+  transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover {
+  background-color: #0b5ed7;
+  color: var(--wp--preset--color--base); /* or any desired text color */
+}
+.has-border-radius{
+	border-radius: 7px;
+}
+.has-box-shadow{
+	box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+            rgba(255, 255, 255, 0.3) 0px 30px 60px -30px,
+            rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+.pricing-icon::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 7px;
+    font-size: 16px;
+    content: "\f058";
+    color: var(--wp--preset--color--assets-one);
+}
+
+
+.log-out::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 7px;
+    font-size: 16px;
+    content: "\f007";
+    color: var(--wp--preset--color--assets-one);
+    cursor: pointer;
+}
+
+.home-blogs{
+	margin-right: 15px!important;
+}
+.wp-block-button__link:hover {
+  background-color: var(--wp--preset--color--assets-two);
+}

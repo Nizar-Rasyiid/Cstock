@@ -1,0 +1,972 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Consultica\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-05 02:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-8.1.10\n"
+"X-Domain: consultica"
+
+#: inc/admin/theme-info.php:297
+msgid ""
+"\"Fearless Setup - Our Dedicated Team will have your website up in minutes"
+msgstr ""
+
+#: patterns/our-plan.php:41
+msgid "$100"
+msgstr ""
+
+#: patterns/our-plan.php:147
+msgid "$180"
+msgstr ""
+
+#: patterns/our-plan.php:94
+msgid "$250"
+msgstr ""
+
+#: inc/admin/theme-info.php:52
+msgid "( Limited blocks available )"
+msgstr ""
+
+#: patterns/our-services.php:50
+msgid "01"
+msgstr ""
+
+#: patterns/our-services.php:74
+msgid "02"
+msgstr ""
+
+#: patterns/our-services.php:98
+msgid "03"
+msgstr ""
+
+#: patterns/our-services.php:124
+msgid "04"
+msgstr ""
+
+#: patterns/our-services.php:148
+msgid "05"
+msgstr ""
+
+#: patterns/our-services.php:172
+msgid "06"
+msgstr ""
+
+#: patterns/features.php:21
+msgid "1000+"
+msgstr ""
+
+#: inc/admin/theme-info.php:95
+msgid "24/7 premium support"
+msgstr ""
+
+#: patterns/features.php:49
+msgid "30+"
+msgstr ""
+
+#: patterns/404.php:14
+msgid "404"
+msgstr ""
+
+#: patterns/features.php:63
+msgid "45+"
+msgstr ""
+
+#: inc/admin/theme-info.php:106
+msgid "50+"
+msgstr ""
+
+#: patterns/features.php:35
+msgid "550+"
+msgstr ""
+
+#: patterns/about-us.php:30 patterns/about-us.php:53 patterns/footer.php:45
+#: patterns/footer.php:97
+msgid "About Us"
+msgstr ""
+
+#: functions.php:117
+msgid "Admin Icon"
+msgstr ""
+
+#: inc/admin/theme-info.php:150
+msgid "Advanced Templates"
+msgstr ""
+
+#: patterns/faq.php:53 patterns/faq.php:69
+msgid ""
+"Aliquam eu nunc. Etiam iaculis nunc ac metus. Donec mi odio, faucibus at, "
+"scelerisque quis, convallis in, nisi. Praesent vestibulum dapibus nibh. "
+"Fusce commodo aliquam arcu."
+msgstr ""
+
+#: inc/admin/theme-info.php:249
+msgid "Animation"
+msgstr ""
+
+#: patterns/our-plan.php:37
+msgid "Annual"
+msgstr ""
+
+#: patterns/404.php:27
+msgid "Back to Home"
+msgstr ""
+
+#: inc/admin/theme-info.php:141
+msgid "Better Customization Without Code"
+msgstr ""
+
+#: inc/admin/theme-info.php:104
+msgid "Block Patterns"
+msgstr ""
+
+#: patterns/call-to-action.php:15
+msgid "Call to Action"
+msgstr ""
+
+#: patterns/sidebar.php:89
+msgid "Categories"
+msgstr ""
+
+#: patterns/testimonials.php:75
+msgid "CEO, BlueNova Technologies"
+msgstr ""
+
+#: patterns/testimonials.php:49
+msgid "CFO, Greenway Logistics"
+msgstr ""
+
+#: patterns/our-plan.php:52 patterns/our-plan.php:105 patterns/our-plan.php:158
+msgid "Choose Plans"
+msgstr ""
+
+#: patterns/our-portfolio.php:41
+msgid "Clarity Project"
+msgstr ""
+
+#: patterns/about-us.php:36
+msgid "Collaborate With Our Expert Consultants Now."
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Asset Four"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Eight"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Eleven"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Five"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Nine"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets One"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Seven"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Six"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Ten"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Three"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Assets Two"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Secondary Background"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Table Line"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Theme"
+msgstr ""
+
+#: theme.json:1 styles/light.json:1 styles/midnight-teal.json:1
+#: styles/mossy-green.json:1 styles/royal-grape.json:1
+msgctxt "Color name"
+msgid "Transparent"
+msgstr ""
+
+#: patterns/features.php:39
+msgid "Complete Projects"
+msgstr ""
+
+#: patterns/our-services.php:135
+msgid "Compliance Consulting"
+msgstr ""
+
+#: patterns/footer.php:105
+msgid "Conditions"
+msgstr ""
+
+#: patterns/banner.php:21
+msgid "Consultia Welcomes You"
+msgstr ""
+
+#. Name of the theme
+#: inc/block-patterns.php:19
+msgid "Consultica"
+msgstr ""
+
+#: inc/admin/theme-info.php:18
+msgid ""
+"Consultica - A Multipurpose, browser & device-friendly Full Site Editing "
+"Theme for WordPress"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Consultica is a modern, clean, and fully responsive Full Site Editing (FSE) "
+"WordPress theme designed specifically for consulting firms, business "
+"advisors, financial services, and professional agencies. Built with the "
+"latest WordPress block editor, this theme empowers you to create and "
+"customize every part of your website—header, footer, pages, and "
+"templates—without writing a single line of code.  Check the real demo:  "
+"https://demos.trendthemeswp.com/consultica"
+msgstr ""
+
+#: inc/admin/theme-notice.php:2
+msgid "Consultica Pro"
+msgstr ""
+
+#: inc/admin/theme-info.php:59
+msgid "Consultica Pro ( More Blocks & Settings available )"
+msgstr ""
+
+#: class/admin-info.php:24 class/admin-info.php:25
+msgid "Consultica Theme"
+msgstr ""
+
+#: patterns/banner.php:47 patterns/call-to-action.php:38 patterns/footer.php:53
+#: patterns/footer.php:109
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/our-plan.php:61 patterns/our-plan.php:65 patterns/our-plan.php:69
+#: patterns/our-plan.php:73 patterns/our-plan.php:114 patterns/our-plan.php:118
+#: patterns/our-plan.php:122 patterns/our-plan.php:126
+#: patterns/our-plan.php:167 patterns/our-plan.php:171
+#: patterns/our-plan.php:175 patterns/our-plan.php:179
+msgid "Conubia fuga irure ab primis."
+msgstr ""
+
+#: patterns/footer.php:79
+msgid "Cookies Policy"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Archive Product"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Single Post (Sidebar on Left)"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Single Post (Sidebar on Right)"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Custom template name"
+msgid "Single Product"
+msgstr ""
+
+#: patterns/testimonials.php:45
+msgid "Daniel Kim"
+msgstr ""
+
+#: patterns/faq.php:52
+msgid "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+msgstr ""
+
+#: patterns/faq.php:68
+msgid "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. "
+msgstr ""
+
+#: inc/admin/theme-info.php:189
+msgid "Drag and Drop functionality"
+msgstr ""
+
+#: inc/admin/theme-info.php:68
+msgid "Easy Setup"
+msgstr ""
+
+#: patterns/our-portfolio.php:65
+msgid "Elevate Project"
+msgstr ""
+
+#: patterns/testimonials.php:71
+msgid "Emily Rodriguez"
+msgstr ""
+
+#: patterns/our-team.php:110
+msgid "Emma Novak"
+msgstr ""
+
+#: inc/admin/theme-info.php:239
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: patterns/banner.php:27
+msgid "Expert Guidance to Transform Your Business"
+msgstr ""
+
+#: patterns/our-services.php:21
+msgid "Explore Our Consulting Offerings"
+msgstr ""
+
+#: patterns/faq.php:17
+msgid "FAQ"
+msgstr ""
+
+#: inc/admin/theme-info.php:56
+msgid "Features"
+msgstr ""
+
+#: patterns/our-services.php:85
+msgid "Financial Consulting"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: inc/admin/theme-info.php:51
+msgid "Free"
+msgstr ""
+
+#: inc/admin/theme-info.php:39
+msgid "Free Vs Pro"
+msgstr ""
+
+#: patterns/faq.php:23 patterns/faq.php:28
+msgid "Freequently Asked Questions."
+msgstr ""
+
+#: inc/admin/theme-info.php:180
+msgid "Frequent Updates"
+msgstr ""
+
+#: patterns/footer.php:83
+msgid "Frequently asked"
+msgstr ""
+
+#: patterns/footer.php:75
+msgid "Funds"
+msgstr ""
+
+#: patterns/faq.php:44 patterns/faq.php:60 patterns/faq.php:76
+msgid "Fusce ac felis sit amet"
+msgstr ""
+
+#: patterns/footer.php:18 patterns/footer.php:57
+msgid "Gallery"
+msgstr ""
+
+#: inc/admin/theme-notice.php:5
+msgid "Get Consultica Pro"
+msgstr ""
+
+#: inc/admin/theme-info.php:304
+msgid "Get Premium Version"
+msgstr ""
+
+#: inc/admin/theme-info.php:300
+msgid "Get Support"
+msgstr ""
+
+#: inc/admin/theme-info.php:169
+msgid "Global Style Variations"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical hard beige to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical hard mint to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical hard pewter to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical hard rust to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical hard sage to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical hard sandstone to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical soft beige to w"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical soft mint to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical soft pewter to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical soft rust to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical soft sage to white"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Gradient name"
+msgid "Vertical soft sandstone to white"
+msgstr ""
+
+#: inc/admin/theme-info.php:227
+msgid "Gutenberg block editor"
+msgstr ""
+
+#: patterns/features.php:25
+msgid "Happy Customer"
+msgstr ""
+
+#: inc/admin/theme-info.php:97
+msgid "High-Priority Dedicated Support"
+msgstr ""
+
+#: patterns/our-portfolio.php:18
+msgid "Highlights of Our Portfolio"
+msgstr ""
+
+#: patterns/footer.php:49
+msgid "Home"
+msgstr ""
+
+#: patterns/our-team.php:114
+msgid "HR Advisor"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://trendthemeswp.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://trendthemeswp.com/products/consultica/"
+msgstr ""
+
+#: inc/admin/theme-info.php:269
+msgid "Icon Picker"
+msgstr ""
+
+#: inc/admin/theme-info.php:209
+msgid "Import components/ templates"
+msgstr ""
+
+#: patterns/footer.php:66
+msgid "Informations"
+msgstr ""
+
+#: patterns/our-team.php:66
+msgid "IT Consultant"
+msgstr ""
+
+#: patterns/404.php:22
+msgid ""
+"It looks like nothing was found at this location. Click button below to "
+"return to homepage."
+msgstr ""
+
+#: patterns/our-services.php:61
+msgid "IT/Technology Consulting"
+msgstr ""
+
+#: patterns/post-list.php:20
+msgid "latest from our Blogs"
+msgstr ""
+
+#: patterns/our-team.php:90
+msgid "Legal Advisor"
+msgstr ""
+
+#: patterns/header.php:22
+msgid "Let's Talk"
+msgstr ""
+
+#: inc/admin/theme-info.php:122
+msgid "Lifetime Updates"
+msgstr ""
+
+#: inc/admin/theme-info.php:197 inc/admin/theme-info.php:206
+msgid "Limited"
+msgstr ""
+
+#: patterns/footer.php:92
+msgid "Links"
+msgstr ""
+
+#: patterns/our-team.php:62
+msgid "Luca Rossi"
+msgstr ""
+
+#: patterns/our-services.php:37
+msgid "Management Consulting"
+msgstr ""
+
+#: patterns/our-portfolio.php:61 patterns/our-portfolio.php:85
+msgid "Market Expansion"
+msgstr ""
+
+#: patterns/our-services.php:111
+msgid "Marketing Consulting"
+msgstr ""
+
+#: patterns/our-team.php:21
+msgid "Meet the Team"
+msgstr ""
+
+#: patterns/our-plan.php:47 patterns/our-plan.php:100 patterns/our-plan.php:153
+msgid "Minim recusandae, volutpat magna, class, adipiscing, consec."
+msgstr ""
+
+#: inc/admin/theme-info.php:159
+msgid "Multiple Header/Footer Layouts"
+msgstr ""
+
+#: inc/admin/theme-info.php:131
+msgid "No coding required"
+msgstr ""
+
+#: inc/admin/theme-info.php:218
+msgid "One Click Demo Import"
+msgstr ""
+
+#: patterns/our-portfolio.php:37
+msgid "Operational Efficiency"
+msgstr ""
+
+#: patterns/our-services.php:159
+msgid "Operations Consulting"
+msgstr ""
+
+#: patterns/post-list.php:14
+msgid "Our Blogs"
+msgstr ""
+
+#: patterns/our-plan.php:14
+msgid "Our Plan"
+msgstr ""
+
+#: patterns/our-portfolio.php:13
+msgid "Our Portfolio"
+msgstr ""
+
+#: patterns/our-services.php:16
+msgid "Our Services"
+msgstr ""
+
+#: patterns/our-team.php:16
+msgid "Our Team"
+msgstr ""
+
+#: patterns/banner.php:56
+msgid "Our Valued Partner"
+msgstr ""
+
+#: patterns/404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: patterns/footer.php:40
+msgid "Pages"
+msgstr ""
+
+#: patterns/404.php:3
+msgctxt "Pattern title"
+msgid "404"
+msgstr ""
+
+#: patterns/about-us.php:3
+msgctxt "Pattern title"
+msgid "About Us"
+msgstr ""
+
+#: patterns/banner.php:3
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr ""
+
+#: patterns/call-to-action.php:3
+msgctxt "Pattern title"
+msgid "Call To Action"
+msgstr ""
+
+#: patterns/faq.php:3
+msgctxt "Pattern title"
+msgid "FAQ"
+msgstr ""
+
+#: patterns/features.php:3
+msgctxt "Pattern title"
+msgid "Features"
+msgstr ""
+
+#: patterns/footer.php:3
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/header.php:3
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/our-plan.php:3
+msgctxt "Pattern title"
+msgid "Our Plan"
+msgstr ""
+
+#: patterns/our-portfolio.php:2
+msgctxt "Pattern title"
+msgid "Our Portfolio"
+msgstr ""
+
+#: patterns/our-services.php:3 patterns/our-team.php:3
+msgctxt "Pattern title"
+msgid "Our Services"
+msgstr ""
+
+#: patterns/post-list.php:3
+msgctxt "Pattern title"
+msgid "Post List"
+msgstr ""
+
+#: patterns/sidebar.php:3
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/testimonials.php:3
+msgctxt "Pattern title"
+msgid "Testimonials"
+msgstr ""
+
+#: patterns/faq.php:45 patterns/faq.php:61 patterns/faq.php:77
+msgid ""
+"Phasellus tempus. Etiam feugiat lorem non metus. Donec venenatis vulputate "
+"lorem. Pellentesque auctor neque nec urna. Nunc nec neque."
+msgstr ""
+
+#: inc/admin/theme-info.php:278
+msgid "Portfolio Pattern"
+msgstr ""
+
+#: patterns/our-plan.php:143
+msgid "Premium"
+msgstr ""
+
+#: patterns/footer.php:101
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/admin/theme-info.php:26
+msgid "Pro Live Demo"
+msgstr ""
+
+#: patterns/features.php:67
+msgid "Professional Team"
+msgstr ""
+
+#: inc/admin/theme-info.php:294
+msgid "Questions Welcome - We're here to help"
+msgstr ""
+
+#: patterns/our-services.php:41 patterns/our-services.php:65
+#: patterns/our-services.php:89 patterns/our-services.php:115
+#: patterns/our-services.php:139 patterns/our-services.php:163
+msgid ""
+"raesent feugiat, nunc et congue ultricies, leo lacus vehicula eros, at "
+"ullamcorper erat orci nec turpis. Nulla facilisi. Aliquam erat volutpat"
+msgstr ""
+
+#: patterns/sidebar.php:32
+msgid "Recent post"
+msgstr ""
+
+#: inc/admin/theme-info.php:77
+msgid "Responsive Desgin"
+msgstr ""
+
+#: patterns/footer.php:75
+msgid "Returns"
+msgstr ""
+
+#: patterns/banner.php:40
+msgid "Schedule A Consultation"
+msgstr ""
+
+#: inc/admin/theme-info.php:259
+msgid "Scroll to Top Button"
+msgstr ""
+
+#: inc/admin/theme-info.php:113
+msgid "Secure transaction"
+msgstr ""
+
+#: patterns/our-team.php:42
+msgid "Senior Consultant"
+msgstr ""
+
+#: inc/admin/theme-info.php:86
+msgid "SEO Friendly"
+msgstr ""
+
+#: patterns/footer.php:71
+msgid "Shipping Policy"
+msgstr ""
+
+#: patterns/our-team.php:38
+msgid "Sophie Dubois"
+msgstr ""
+
+#: patterns/our-plan.php:90
+msgid "Standard"
+msgstr ""
+
+#: styles/light.json:1
+msgctxt "Style variation name"
+msgid "Light"
+msgstr ""
+
+#: styles/midnight-teal.json:1
+msgctxt "Style variation name"
+msgid "Midnight Teal"
+msgstr ""
+
+#: styles/mossy-green.json:1
+msgctxt "Style variation name"
+msgid "Mossy Green"
+msgstr ""
+
+#: styles/royal-grape.json:1
+msgctxt "Style variation name"
+msgid "Royal Grape"
+msgstr ""
+
+#: patterns/sidebar.php:68
+msgid "Tags"
+msgstr ""
+
+#: patterns/call-to-action.php:20
+msgid "Take Business to the Next Level"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json:1
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: patterns/footer.php:105
+msgid "Terms"
+msgstr ""
+
+#: patterns/testimonials.php:14
+msgid "Testimonials"
+msgstr ""
+
+#: inc/admin/theme-notice.php:6
+msgid "Theme Info"
+msgstr ""
+
+#: patterns/our-team.php:86
+msgid "Thomas Jensen"
+msgstr ""
+
+#. Author of the theme
+msgid "Trendthemeswp"
+msgstr ""
+
+#: patterns/call-to-action.php:32
+msgid "Try It Now"
+msgstr ""
+
+#: inc/admin/theme-info.php:200
+msgid "Typography and color options"
+msgstr ""
+
+#: inc/admin/theme-info.php:202
+msgid "Unlimited"
+msgstr ""
+
+#: inc/admin/theme-notice.php:3
+msgid ""
+"Upgrade to the Pro version to unlock advanced blocks and patterns, dedicated "
+"support, and theme installation with demo setup. Experience enhanced "
+"flexibility and receive dedicated support to effortlessly elevate your "
+"website to new heights of excellence."
+msgstr ""
+
+#: patterns/post-list.php:25
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum"
+msgstr ""
+
+#: patterns/our-plan.php:25 patterns/our-team.php:26
+#: patterns/testimonials.php:24
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum "
+msgstr ""
+
+#: patterns/about-us.php:45 patterns/banner.php:32 patterns/faq.php:32
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et"
+msgstr ""
+
+#: patterns/about-us.php:41 patterns/call-to-action.php:25
+#: patterns/our-portfolio.php:23 patterns/our-services.php:26
+msgid ""
+"Ut varius tincidunt libero. Curabitur at lacus ac velit ornare lobortis. "
+"Phasellus dolor. Vestibulum ante ipsum primis in faucibus orci luctus et "
+"Vestibulum ante ipsum primis in faucibus orci luctus et"
+msgstr ""
+
+#: patterns/our-portfolio.php:89
+msgid "Venture Projects"
+msgstr ""
+
+#: patterns/our-plan.php:20
+msgid "View our pricing plans"
+msgstr ""
+
+#: patterns/testimonials.php:19
+msgid "What out Clients say"
+msgstr ""
+
+#: patterns/features.php:53
+msgid "Years of Experience"
+msgstr ""
+
+#: patterns/testimonials.php:36 patterns/testimonials.php:62
+msgid ""
+"“Architecto autem facilis conse quuntur rerum nemo! Torquent non, nostrum "
+"quis vestibulum magnis? Quos praesentium netus. Gravida, eros, ridiculus "
+"dolor purus eveniet magnam vero.”"
+msgstr ""

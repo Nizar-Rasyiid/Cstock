@@ -1,0 +1,363 @@
+/*
+Theme Name: Consultica
+Theme URI: https://trendthemeswp.com/products/consultica/
+Author: Trendthemeswp 
+Author URI: https://trendthemeswp.com
+Description: Consultica is a modern, clean, and fully responsive Full Site Editing (FSE) WordPress theme designed specifically for consulting firms, business advisors, financial services, and professional agencies. Built with the latest WordPress block editor, this theme empowers you to create and customize every part of your website—header, footer, pages, and templates—without writing a single line of code.  Check the real demo:  https://demos.trendthemeswp.com/consultica
+Requires at least: 5.9
+Tested up to: 6.8
+Requires PHP: 7.4
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: consultica
+Tags: editor-style, full-site-editing, blog, custom-background, custom-logo, custom-menu, e-commerce, featured-images, footer-widgets, left-sidebar, one-column, portfolio, right-sidebar, threaded-comments, translation-ready, two-columns, wide-blocks, full-width-template, sticky-post, theme-options, block-styles, block-patterns
+*/
+/* Styles intended only for the front.*/
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+form .wp-block-search__inside-wrapper button {
+  box-shadow: unset;
+}
+
+form .wp-block-search__input {
+  font-size: 18px;
+}
+
+/* Hide the site title when the search input or its container gains focus */
+.wp-block-search__inside-wrapper:focus-within .wp-block-site-title {
+  display: none !important;
+}
+
+.expanded .wp-block-site-title {
+  display: none;
+}
+
+/* submenu css starts here  */
+.wp-block-navigation
+  .wp-block-navigation-item__content.wp-block-navigation-item__content {
+  padding: 15px 15px;
+}
+
+@media screen and (min-width: 1000px) {
+  .wp-block-navigation
+    .has-child:where(:not(.open-on-click)):hover
+    > .wp-block-navigation__submenu-container {
+    animation: smoothScrollBack 0.6s backwards, fadein 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 6px -1px,
+      rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 6px;
+  }
+
+  button.wp-block-navigation__submenu-icon.wp-block-navigation-submenu__toggle {
+    position: absolute;
+    right: 4px;
+  }
+}
+
+@keyframes smoothScrollBack {
+  0% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .wp-block-navigation__responsive-container,
+  .wp-block-navigation__responsive-container
+    .wp-block-navigation__responsive-container-content {
+    display: none;
+  }
+
+  .wp-block-navigation__responsive-container-close {
+    background: var(--wp--preset--color--button-hover);
+  }
+
+  .wp-block-navigation__responsive-container-close svg,
+  .wp-block-navigation__responsive-container-open svg {
+    width: 42px;
+    height: 42px;
+  }
+
+  .wp-block-navigation__responsive-container-close {
+    top: -20px;
+    right: 20px;
+  }
+
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: block;
+  }
+
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(
+      .is-menu-open
+    ) {
+    display: none;
+  }
+
+  .wp-block-navigation__responsive-container.is-menu-open
+    .wp-block-navigation__responsive-container-content {
+    padding: 1.5em;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child {
+    width: 100%;
+    gap: 0 !important;
+    border-bottom: none;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item {
+    width: 100%;
+    gap: 0 !important;
+    border: none !important;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    a {
+    width: calc(100% - 48px);
+    padding: 12px 24px 12px;
+    line-height: 30px;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    .wp-block-navigation__submenu-icon {
+    display: block !important;
+    margin-left: 15px;
+    padding: 3px 10px;
+    float: right;
+    font-size: 19px;
+    line-height: 1;
+    position: absolute;
+    right: 0;
+    height: 42px;
+    width: 42px;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    .wp-block-navigation__submenu-icon
+    svg {
+    display: block;
+    width: 30px;
+    height: 13px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    ul.wp-block-navigation__submenu-container {
+    width: 100%;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    display: none;
+    box-shadow: none;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    ul.wp-block-navigation__submenu-container
+    li.wp-block-navigation-item
+    a {
+    padding-left: 35px;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    ul.wp-block-navigation__submenu-container
+    li.wp-block-navigation-item
+    ul.wp-block-navigation__submenu-container
+    li.wp-block-navigation-item
+    a {
+    padding-left: 70px;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    ul.wp-block-navigation__submenu-container
+    li.wp-block-navigation-item
+    ul.wp-block-navigation__submenu-container
+    li.wp-block-navigation-item
+    ul.wp-block-navigation__submenu-container
+    li.wp-block-navigation-item
+    a {
+    padding-left: 105px;
+  }
+
+  .wp-block-navigation
+    .wp-block-navigation__responsive-container-content
+    ul:first-child
+    li.wp-block-navigation-item
+    .wp-block-navigation-submenu__toggle[aria-expanded="true"]
+    + ul.wp-block-navigation__submenu-container {
+    display: block;
+    margin: 0;
+  }
+}
+
+/* shortcode featured product css start here  */
+@media (max-width: 653px) {
+  .woocommerce div.product {
+    width: 100%;
+  }
+}
+
+.slide-out-content .summary {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.summary.entry-summary form button {
+  padding: 10px;
+}
+
+@media (max-width: 1100px) {
+  .consultica-product-item-box .products-wrapper .products-items {
+    grid-template-columns: auto auto auto;
+    gap: 32px;
+  }
+}
+
+.woocommerce .products .product:hover .wc-booster-quick-view {
+  opacity: 1;
+  visibility: visible;
+}
+.wp-block-group .arrow-right a {
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+.wp-block-group .arrow-right a::after {
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  /* set the font family to Font Awesome */
+  margin-left: 6px;
+  font-weight: 600;
+}
+/*post date*/
+.wp-block-post-date::before {
+  content: "\f508";
+  font-family: "Dashicons";
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.post-author-name.wp-block-post-author-name::before {
+  content: "\f110";
+  font-family: "Dashicons";
+  font-weight: 600;
+  padding-right: 5px;
+  font-size: 12px;
+}
+.taxonomy-category.wp-block-post-terms::before {
+  font-size: 12px;
+  content: "\f022";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.site-footer {
+  margin-top: 0;
+}
+.wp-block-button__link {
+  transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover {
+  background-color: var(--wp--preset--color--assets-two);
+  color: var(--wp--preset--color--base); /* or any desired text color */
+}
+
+.has-border-radius {
+  border-radius: 7px;
+}
+.has-box-shadow {
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px,
+    rgba(255, 255, 255, 0.3) 0px 30px 60px -30px,
+    rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+}
+.pricing-icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 7px;
+  font-size: 16px;
+  content: "\f058";
+  color: var(--wp--preset--color--assets-one);
+}
+
+.log-out::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 7px;
+  font-size: 16px;
+  content: "\f007";
+  color: var(--wp--preset--color--assets-one);
+  cursor: pointer;
+}
+.log-out {
+  border-radius: 6px;
+}
+.log-out a {
+  text-decoration: none;
+}
+
+.home-blogs {
+  margin-right: 15px !important;
+}
+
+.portfolio-icon {
+  cursor: pointer;
+}
+.taxonomy-post_tag a{
+	padding-right:5px;
+}
