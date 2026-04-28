@@ -36,19 +36,23 @@ jobs:
               run: npm install
 
             - name: Build assets
-              run: npm run production
+              run: npm run build
 
             - name: Create deployment package
               run: |
                   mkdir -p deployment
                   # Copy Laravel directories
-                  cp -r app bootstrap config database Modules public resources routes storage deployment/
+                  cp -r app bootstrap config database Modules resources routes storage deployment/
+                  # Copy public with build assets
+                  cp -r public deployment/
                   # Copy files
                   cp artisan composer.json composer.lock package.json package-lock.json index.php .env.production deployment/
                   # Copy WordPress files jika ada
                   find . -maxdepth 1 -name "wp-*.php" -o -name "xmlrpc.php" | xargs -I {} cp {} deployment/ 2>/dev/null || true
                   # Copy vendor
                   cp -r vendor deployment/ 2>/dev/null || true
+                  # Show what we're deploying
+                  du -sh deployment/
 
             - name: Deploy via SFTP
               uses: wangyucode/sftp-upload-action@v2.0.2
