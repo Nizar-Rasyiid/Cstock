@@ -4,12 +4,19 @@
 /storage/*.key
 /vendor
 .env
+.env.local
 # .env.backup
+# .env.production (kept in repo for reference)
 .phpunit.result.cache
 # docker-compose.override.yml
 # Homestead.json
 # Homestead.yaml
-# npm-debug.log
-# yarn-error.log
+npm-debug.log*
+yarn-error.log*
 /.idea
 /.vscode
+/deployment
+.DS_Store
+Thumbs.db
+*.log
+.env.*.local

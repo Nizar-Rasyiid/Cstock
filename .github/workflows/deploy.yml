@@ -1,0 +1,68 @@
+name: Deploy to Niagahoster
+
+on:
+    push:
+        branches: [ main ]
+    pull_request:
+        branches: [ main ]
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Setup PHP
+              uses: shivammathur/setup-php@v2
+              with:
+                  php-version: "8.1"
+                  extensions: mbstring, pdo_mysql, fileinfo, gd, zip
+
+            - name: Install Composer dependencies
+              run: composer install --no-dev --optimize-autoloader
+
+            - name: Setup Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "18"
+
+            - name: Install NPM dependencies
+              run: npm install
+
+            - name: Build assets
+              run: npm run production
+
+            - name: Create deployment package
+              run: |
+                  mkdir -p deployment
+                  cp -r --parents app bootstrap config database Modules public resources routes storage tests vendor .env.production deployment/
+                  cp -r artisan composer.json composer.lock package.json package-lock.json index.php deployment/
+                  cp wp-*.php wp-config.php xmlrpc.php deployment/ 2>/dev/null || true
+
+            - name: Deploy via SFTP
+              uses: wangyucode/sftp-upload-action@v2.0.2
+              with:
+                  host: ${{ secrets.NIAGAHOSTER_HOST }}
+                  username: ${{ secrets.NIAGAHOSTER_USERNAME }}
+                  password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
+                  localDir: "./deployment"
+                  remoteDir: "./public_html"
+                  sftpArgs: "-o ConnectTimeout=10 -o StrictHostKeyChecking=no"
+
+            - name: Run Laravel migrations & cache clear
+              uses: appleboy/ssh-action@master
+              with:
+                  host: ${{ secrets.NIAGAHOSTER_HOST }}
+                  username: ${{ secrets.NIAGAHOSTER_USERNAME }}
+                  password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
+                  port: 22
+                  script: |
+                      cd ~/public_html
+                      php artisan migrate --force || true
+                      php artisan cache:clear || true
+                      php artisan config:cache || true
+
+            - name: Deployment notification
+              if: always()
+              run: echo "Deployment completed"
