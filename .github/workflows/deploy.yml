@@ -61,11 +61,16 @@ jobs:
                   # Show what we're deploying
                   du -sh deployment/
 
+            - name: Validate deploy secrets
+              run: |
+                  test -n "${{ secrets.NIAGAHOSTER_PASSWORD }}" || (echo "❌ Missing secret: NIAGAHOSTER_PASSWORD" && exit 1)
+                  echo "✅ Password secret present"
+
             - name: Deploy via FTP
               uses: SamKirkland/FTP-Deploy-Action@v4.3.5
               with:
                   server: ftp.cstock.id
-                  username: ${{ secrets.NIAGAHOSTER_USERNAME }}
+                  username: u6174448022.cstock.id
                   password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
                   local-dir: "./deployment/"
                   server-dir: "/public_html/"
