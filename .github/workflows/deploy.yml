@@ -61,6 +61,12 @@ jobs:
                   # Show what we're deploying
                   du -sh deployment/
 
+            - name: Print runner public IP
+              run: |
+                  echo "Runner public IPs (for FTP whitelist):"
+                  curl -s https://api.ipify.org; echo
+                  curl -s https://ifconfig.me; echo
+
             - name: Validate deploy secrets
               if: github.event_name == 'push'
               shell: bash
@@ -70,7 +76,7 @@ jobs:
                     echo "📍 Go to: Settings → Secrets and variables → Actions"
                     echo "➕ Create secret:"
                     echo "   Name: NIAGAHOSTER_PASSWORD"
-                    echo "   Value: Deployer1!@#"
+                    echo "   Value: Cstock2026!"
                     exit 1
                   fi
                   echo "✅ Password secret present"
@@ -81,12 +87,12 @@ jobs:
                   server: 46.202.186.170
                   username: u617448022.cstock.id
                   password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
-                  local-dir: "./deployment/"
-                  server-dir: "/public_html/"
+                  local-dir: ./deployment/
+                  server-dir: /public_html/
 
             - name: Deployment notification
               if: always()
               run: |
-                  echo "✅ SFTP deployment completed!"
+                  echo "✅ FTP deployment completed!"
                   echo "📝 Next steps: SSH ke server dan run migrations manual jika perlu"
                   echo "   cd ~/public_html && php artisan migrate --force && php artisan cache:clear"
