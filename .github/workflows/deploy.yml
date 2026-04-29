@@ -81,18 +81,32 @@ jobs:
                   fi
                   echo "✅ Password secret present"
 
-            - name: Deploy via FTP
-              uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+            - name: Deploy via SSH (SCP) with Private Key
+              id: scp_key
+              continue-on-error: true
+              uses: appleboy/scp-action@v0.1.7
               with:
-                  server: 46.202.186.170
-                  username: u617448022.cstock.id
-                  password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
-                  local-dir: ./deployment/
-                  server-dir: /public_html/
+                  host: ${{ secrets.SSH_HOST }}
+                  username: ${{ secrets.SSH_USERNAME }}
+                  key: ${{ secrets.SSH_PRIVATE_KEY }}
+                  port: 22
+                  source: "deployment/*"
+                  target: "/home/u617448022/public_html/"
+
+            - name: Deploy via SSH (SCP) with Password (Fallback)
+              if: steps.scp_key.outcome == 'failure'
+              uses: appleboy/scp-action@v0.1.7
+              with:
+                  host: ${{ secrets.SSH_HOST }}
+                  username: ${{ secrets.SSH_USERNAME }}
+                  password: ${{ secrets.SSH_PASSWORD }}
+                  port: 22
+                  source: "deployment/*"
+                  target: "/home/u617448022/public_html/"
 
             - name: Deployment notification
               if: always()
               run: |
-                  echo "✅ FTP deployment completed!"
+                  echo "✅ SSH deployment completed!"
                   echo "📝 Next steps: SSH ke server dan run migrations manual jika perlu"
                   echo "   cd ~/public_html && php artisan migrate --force && php artisan cache:clear"
