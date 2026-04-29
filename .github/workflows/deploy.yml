@@ -78,8 +78,8 @@ jobs:
             - name: Deploy via FTP
               uses: SamKirkland/FTP-Deploy-Action@v4.3.5
               with:
-                  server: ftp.cstock.id
-                  username: u6174448022.cstock.id
+                  server: 46.202.186.170
+                  username: u617448022.cstock.id
                   password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
                   local-dir: "./deployment/"
                   server-dir: "/public_html/"
