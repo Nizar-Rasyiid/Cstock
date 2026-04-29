@@ -62,8 +62,17 @@ jobs:
                   du -sh deployment/
 
             - name: Validate deploy secrets
+              if: github.event_name == 'push'
+              shell: bash
               run: |
-                  test -n "${{ secrets.NIAGAHOSTER_PASSWORD }}" || (echo "❌ Missing secret: NIAGAHOSTER_PASSWORD" && exit 1)
+                  if [[ -z "${{ secrets.NIAGAHOSTER_PASSWORD }}" ]]; then
+                    echo "❌ ERROR: Missing secret NIAGAHOSTER_PASSWORD"
+                    echo "📍 Go to: Settings → Secrets and variables → Actions"
+                    echo "➕ Create secret:"
+                    echo "   Name: NIAGAHOSTER_PASSWORD"
+                    echo "   Value: Deployer1!@#"
+                    exit 1
+                  fi
                   echo "✅ Password secret present"
 
             - name: Deploy via FTP
