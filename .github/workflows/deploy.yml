@@ -64,12 +64,11 @@ jobs:
             - name: Deploy via FTP
               uses: SamKirkland/FTP-Deploy-Action@v4.3.5
               with:
-                  server: ${{ secrets.NIAGAHOSTER_HOST }}
+                  server: ftp.cstock.id
                   username: ${{ secrets.NIAGAHOSTER_USERNAME }}
                   password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
                   local-dir: "./deployment/"
                   server-dir: "/public_html/"
-                  state-name: ".ftp-deploy-sync-state.json"
 
             - name: Deployment notification
               if: always()
