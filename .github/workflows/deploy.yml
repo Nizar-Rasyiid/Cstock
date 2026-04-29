@@ -12,6 +12,9 @@ jobs:
 
         steps:
             - uses: actions/checkout@v4
+              with:
+                  submodules: recursive
+                  token: ${{ github.token }}
 
             - name: Setup PHP
               uses: shivammathur/setup-php@v2
@@ -47,6 +50,8 @@ jobs:
                   cp -r app bootstrap config database Modules resources routes storage deployment/
                   # Copy public with build assets
                   cp -r public deployment/
+                  # Copy dashboardapp (submodule)
+                  cp -r dashboardapp deployment/ 2>/dev/null || true
                   # Copy files
                   cp artisan composer.json composer.lock package.json package-lock.json index.php .env.production deployment/
                   # Copy WordPress files jika ada
@@ -62,6 +67,7 @@ jobs:
                   host: ${{ secrets.NIAGAHOSTER_HOST }}
                   username: ${{ secrets.NIAGAHOSTER_USERNAME }}
                   password: ${{ secrets.NIAGAHOSTER_PASSWORD }}
+                  port: 21
                   localDir: "./deployment"
                   remoteDir: "./public_html"
                   sftpArgs: "-o ConnectTimeout=10 -o StrictHostKeyChecking=no"

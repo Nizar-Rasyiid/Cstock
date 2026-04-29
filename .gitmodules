@@ -1,0 +1,3 @@
+[submodule "dashboardapp"]
+	path = dashboardapp
+	url = https://github.com/Nizar-Rasyiid/dashboardapp.git
